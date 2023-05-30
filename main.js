@@ -9,3 +9,9 @@ let studentMario = {
     weigth: 75
 
 };
+
+//STAMPO A CONSOLE TUTTE LE PROPRITA' DELL'OGGETTO
+
+for (key in studentMario) {
+    console.log(`${key} : ${studentMario[key]}`)
+}
